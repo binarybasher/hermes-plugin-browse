@@ -1,4 +1,4 @@
-# browse — Web Content Extraction Plugin
+# browse - Web Content Extraction Plugin
 
 Extracts web page content using a two-tier approach: fast Obscura text dump
 for static pages, with automatic web2md/Playwright fallback for JavaScript-heavy
@@ -9,8 +9,8 @@ Pair with the built-in `ddgs` provider for search.
 ## What problem it solves
 
 Hermes's built-in web extract backends (Firecrawl, Tavily, SearXNG) all require
-API keys or external services. This plugin uses only local tools — Obscura
-(a lightweight headless browser) and web2md (Playwright + system Chromium) —
+API keys or external services. This plugin uses only local tools - Obscura
+(a lightweight headless browser) and web2md (Playwright + system Chromium) -
 to extract content from any URL without third-party dependencies.
 
 It also solves the bot-blocking problem: web2md uses a real Chromium browser
@@ -26,7 +26,7 @@ walls that block headless browsers on Google, DuckDuckGo, and other sites.
 | Playwright | ≥1.48 | Browser automation (used by web2md) |
 | Chromium | ≥131 | System browser (snap or apt) |
 | Python | ≥3.14 | web2md runtime |
-| `~/.hermes/scripts/browse` | — | Wrapper script (included) |
+| `~/.hermes/scripts/browse` | - | Wrapper script (included) |
 
 ## Installation
 
@@ -126,4 +126,4 @@ automatically falls back to web2md/Playwright for these cases.
 
 ## License
 
-MIT — same as Hermes Agent.
+MIT - same as Hermes Agent.
