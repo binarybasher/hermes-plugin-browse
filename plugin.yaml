@@ -1,0 +1,8 @@
+name: browse
+version: 1.0.0
+description: "Web content extraction via Obscura (fast text) with web2md/Playwright fallback for JS-heavy pages. No API key required. Pair with the built-in ddgs provider for search."
+author: "Ryan O'Dell"
+kind: backend
+provides_web_providers:
+  - browse
+requires_env: []
